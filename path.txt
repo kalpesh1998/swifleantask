@@ -20,3 +20,8 @@ _______________________________________________________________________
 7. http://127.0.0.1:8000/api/classes/2/
 8. http://127.0.0.1:8000/api/2/
 9. http://127.0.0.1.8000/admin/
+
+
+Admin(Super User) login:-
+username: admin
+passwaord: password123
