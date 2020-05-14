@@ -1,0 +1,21 @@
+1.  path('', views.post_list, name='home'),     # Front end web page view
+2.  path('<id>/', views.post_detail, name='post_detail'),   # Enter in class detail
+3.  path('login',views.user_login,name="user_login"),       # User login
+4.  path('logout', views.user_logout, name='user_logout'),  # User Logout
+5.  path('register',views.signup_view,name='signup_view'),  #User Registration
+6.  path("api/classes/",views.ProductListView.as_view()),   # List of classes api
+7.  path("api/classes/<int:id>",views.ProductDetailView.as_view()), # task of classes api
+8.  path("api/<int:id>",views.UserDetailView.as_view()),# User Api
+
+
+
+_______________________________________________________________________
+
+1. http://127.0.0.1:8000/
+2. http://127.0.0.1:8000/2/
+3. http://127.0.0.1:8000/login/
+4. http://127.0.0.1:8000/logout/
+5. http://127.0.0.1:8000/register/
+6. http://127.0.0.1:8000/api/classes/
+7. http://127.0.0.1:8000/api/classes/2/
+8. http://127.0.0.1:8000/api/2/
